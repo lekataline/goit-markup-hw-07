@@ -3,7 +3,7 @@
   flex-wrap: wrap;
 }
 
-.gallery__list {
+.gallery__item {
   display: block;
   width: 370px;
   height: 404px;
@@ -19,13 +19,15 @@
   }
 }
 
-.gallery__list a:hover .product,
-.gallery__list a:focus .product {
-  box-shadow: var(--gallery-list);
-}
-
 .gallery__link {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gallery__product {
+  .gallery__item a:hover &,
+  .gallery__item a:focus & {
+    box-shadow: var(--gallery-item);
+  }
 }
 
 .gallery__card {
@@ -73,7 +75,7 @@
   border-left: 1px solid var(--border-ln-cl);
 }
 
-.gallery__subtitle {
+.gallery__title {
   margin-bottom: 4px;
 
   color: var(--heading-txt-cl);

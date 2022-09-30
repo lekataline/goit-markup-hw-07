@@ -1,15 +1,4 @@
-.clients__title {
-  margin-bottom: 50px;
-
-  color: var(--heading-txt-cl);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
-.clients__list {
+.clients {
   display: flex;
   align-items: flex-start;
   gap: 30px;

@@ -1,21 +1,10 @@
-.features__title {
-  margin-bottom: 50px;
-
-  color: var(--heading-txt-cl);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
-.features__list {
+.features {
   display: flex;
   align-items: flex-start;
   gap: 30px;
 }
 
-.features__icon {
+.features__icon-box {
   display: flex;
   width: 270px;
   height: 120px;
@@ -27,7 +16,7 @@
   background-color: var(--section-bg-cl);
 }
 
-.features__subtitle {
+.features__title {
   margin-top: 30px;
   margin-bottom: 10px;
 

@@ -12,11 +12,11 @@
   letter-spacing: 0.03em;
   text-decoration: none;
 
-  &--dark {
+  &__dark {
     color: var(--dark-txt-cl);
   }
 
-  &--light {
+  &__light {
     color: var(--light-txt-cl);
   }
 }

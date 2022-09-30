@@ -42,7 +42,7 @@
   margin-right: 93px;
 }
 
-.socials__subtt-ft {
+.socials__title {
   align-items: baseline;
   align-content: center;
   margin-bottom: 20px;
@@ -56,17 +56,12 @@
   color: var(--light-txt-cl);
 }
 
-.socials__fl-list {
+.socials__list {
   justify-content: start;
   align-items: flex-start;
 }
-.social__link-ft {
-  color: var(--border-card-cl);
-  background-color: var(--light-bt-cl);
-  border-radius: 50%;
-}
 
-.social__ft {
+.social__link--light {
   color: var(--light-bt-cl);
   background-color: var(--grey-bg-cl);
   border-radius: 50%;
